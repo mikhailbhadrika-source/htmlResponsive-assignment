@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  }
+img {
+  border-radius: 10%;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 500px 500px 500px 1fr 1fr;
+  grid-template-rows: 2fr;
+  gap: 10px;
+  }
+.card {
+  border: 10px rgb(101, 45, 45);
+  border-radius: 10%;
+  background-color: rgb(101, 45, 45);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: none;
+  color: rgb(255, 121, 121);
+  padding: 10px;
+  }
+.card:hover {
+  border: 10px rgb(181, 90, 90);
+  border-radius: 5%;
+  background-color: rgb(255, 121, 121);
+  text-decoration: underline;
+  color: white;
+  box-shadow: 10px solid red;
+  }
